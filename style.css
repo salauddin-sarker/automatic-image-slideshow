@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+body{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  perspective: 1000px;
+  transform-style: preserve-3d;
+  text-align: center;
+}
+.content{
+  box-shadow: 1px 1px 15px rgba(0,0,0,0.4);
+  height: 400px;
+  overflow: hidden;
+  width: 750px;
+}
+.content .images{
+  height: 100%;
+  width: 100%;
+}
+.images img{
+  height: 100%;
+  width: 100%;
+}
